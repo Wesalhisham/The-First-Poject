@@ -1,0 +1,735 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 700%;
+    position: relative;
+    overflow: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform:capitalize;
+}
+.parent1 h2{
+    color:azure;
+    padding:200px 0 0 20px;
+    word-spacing:15px;
+    letter-spacing:3px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:50px;
+    position: absolute;
+}
+.parent1 .p1 {
+    color: azure;
+    word-spacing: 5px;
+    font-size: 20px;
+    position: absolute;
+    top:40%;
+    left: 20px;
+}
+.but1 , .but2{
+    width:180px;
+    height:50px;
+    position: absolute;
+    top:65%;
+    background-color:sienna;
+    border-radius:20px;
+    text-decoration: none;
+    color: azure;
+    font-size: 25px;
+    cursor:pointer;
+}
+.but1{
+    left: 10%;
+}
+.but2{
+    left: 30%;
+}
+.but1:hover {
+    opacity: .4;
+    color: black;
+}
+.but2:hover {
+    opacity: .4;
+    color: black;
+}
+.parent1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://cdn.concreteplayground.com/content/uploads/2016/08/Meletos-Yarra-Valley-05.jpeg");
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    
+}
+.over-lay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:rgb(0,0,0,.4);
+}
+.div1{
+    width:100%;
+    height:50px;
+    background-color:black;
+    top:0;
+    left:0;
+    position:fixed;
+    opacity:.8;
+    z-index: 2;
+}
+.ul1 {
+    list-style-type: none;
+    float: right;
+    
+}
+.li1 {
+    display: inline-block;
+}
+.li1 a {
+        margin-right: 30px;
+        margin-bottom: 20px;
+        color: chocolate;
+        font-size: 20px;
+        text-decoration: none;
+}
+ .div1 a:hover {
+    color:blue;
+}
+.img1{
+    width:100px;
+    height:50px;
+    background-color:black;
+    margin-left:110px;
+    float:left; 
+}
+
+.parent2 {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://www.healthcomm.cz/kongresy/online/photos/coffe.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1800px;
+}
+.parent2 h2 {
+    font-size: 40px;
+    text-align: center;
+    color:azure;
+    padding-top: 80;
+}
+.child1 {
+    width: 80%;
+    height: 100vh;
+    margin: 0 10%;
+    overflow: auto; 
+}
+.perant {
+    margin-top: 80px;
+}
+
+.parent2_line {
+    width: 80px;
+    height: 7px;
+    background-color:rgb(202, 118, 7);
+    margin: auto;
+    margin-top: 10;
+}
+.d3 ,.d2 , .d1 {
+    width: 330px;
+    height: 330px;
+    border-radius: 100;
+    border: 3px solid  rgb(202, 118, 7);
+    float: left;
+    text-align: center;
+    position: relative;
+}
+.d1 {
+    margin-left: 3%;
+}
+.d2 {
+    margin: 0 3%;
+}
+.dd:hover{
+    background-color: rgb(208, 141, 59);
+    border: 7px solid black;
+} 
+.dd:hover p{
+    color: black;
+}
+.dd:hover i{
+    color: black;
+}
+.dd:hover a{
+    color: black;
+}
+.dd:hover parent_a{
+    border: black;
+}
+.parent2 p {
+    color:aliceblue;
+}
+.perant a{
+    text-decoration:none;
+}
+
+.parent2 i{
+    margin-top: 20px;
+    font-size: 40px;
+    color: white;
+}
+.perant .p1{
+    padding-top: 25;
+    font-size: 30;
+}
+.parent_a{
+    width: 100px;
+    height: 20px;
+    margin: auto;
+    margin-top: 50;
+    border: 2px solid rgb(202, 118, 7);
+}
+.parent_a a{
+    font-size: 15;
+    color: aliceblue;
+}
+.featured{
+    width: 100%;
+    height: 170vh;
+    background-image: url("https://www.healthcomm.cz/kongresy/online/photos/coffe.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1700px;
+}   
+.featured_h2 {
+    padding-top: 5%;
+    font-size: 40px;
+    text-align: center;
+    color:azure;
+}
+.featured_line{
+    height: 7px;
+    background-color:rgb(202, 118, 7);
+    margin: auto;
+}
+.featured-continer{
+    width: 80%;
+    margin: auto;
+}
+.featured-cotent{
+    overflow: auto;
+}
+.featured-item{
+    float: left;
+    width: 350px;
+    height: 450px;
+    position: relative; 
+}
+.ftrd-item2{
+    margin-left:63;
+    margin-right:63;
+}
+.ftrd-item4 , .ftrd-item5 ,.ftrd-item6{
+    margin-top: 5%;
+}
+.ftrd-item1 , .ftrd-item22 , .ftrd-item3{
+    margin-top: 5%;
+}
+.item-info{
+        text-align: center;
+        color: rgb(253, 252, 252);
+        font-size: 20px;
+        font-weight: bold;
+        position: absolute;
+        transition: 4s;
+        visibility: hidden;
+        opacity: 0; 
+        left:0; right: 0;
+        top:30%; bottom: 0;
+    }
+    .item-info a{
+        width: 30px;
+        height: 30px;
+        background-color:rgb(29, 97, 156);
+        color:aliceblue ;
+        font-size: 21;
+     }
+.featured-item-img{
+    padding-left: 25;
+    padding-top:50;
+}
+.featured-item:after{
+    content: "";
+    position: absolute;
+    width:0; height: 0;
+    top:0;
+    left: 0;
+    opacity: .2;
+    background-color:black;
+}
+.featured-item:hover::after{
+    width: 100%; height: 100%;
+    opacity: .6;
+    transition: 2s;
+}
+.featured-item:hover .item-info{
+    visibility: visible;
+    opacity: 1;
+}
+.offer{
+    width: 100%;
+    height: 80vh;
+    background-image: url("https://www.healthcomm.cz/kongresy/online/photos/coffe.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1600px;
+    margin-top: -40;
+}
+.offer_div1 , .offer_div2{
+    width: 80%;
+    height: 35%;
+    margin: auto;
+    margin-top: 30;
+}
+.offer_cont{
+    color: aliceblue;
+    width: 350px;
+    height: 200px;
+    border: 3px solid  rgb(202, 118, 7);
+    float: left;
+}
+.cont2{
+    margin: 0 4.5%;
+}
+.offer_h2{
+    font-size: 40px;
+    text-align: center;
+    color:azure;
+    margin-top: 40;
+}
+.offer_line{
+    width: 80px;
+    height: 7px;
+    background-color:rgb(202, 118, 7);
+    margin: auto;
+}
+.offer i{
+    padding-left: 40%;
+    padding-top: 5%;
+    font-size: 20;
+}
+.offer_div1 h2{
+    padding-left: 35%;
+}
+.offer_div2 h2{
+    padding-left: 35%;
+}
+.offer_cont:hover{
+    background-color: black;
+} 
+.profile {
+    width: 100%;
+    height: 85vh;
+    background-image: url("https://www.healthcomm.cz/kongresy/online/photos/coffe.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1800px;
+    /* position: relative; */
+    overflow: auto;
+}
+.profile_div1 {
+    width: 30%;
+    height: 60%;
+    float: left;
+    margin: 100 0 0 150;
+    color: aliceblue;
+}
+.profile_h2{
+    font-size: 50;
+}
+.profile_p{
+    padding: 10 0 10 10;
+    font-size: 20;
+}
+.profile_div1_ul{
+    list-style-type:square;
+    padding: 0 0 0 25;
+    font-size: 15;
+}
+.profile_div2{
+    width: 500;
+    height: 450;
+    float: left;
+    margin: 60 0 0 250;
+    background-color: bisque;
+}
+.profile_div2_ul{
+    color: aliceblue;
+    /* font-size: 40; */
+    /* display: inline-block; */
+}
+.icons{
+    width: 100%;
+    height: 30vh;
+    position: relative;
+}
+.icones-overlay{
+    width: 100%;
+    height: 30vh;
+    position: absolute;
+    background-color: black;
+    opacity: .6;
+}
+.icons_continer{
+    width: 100%;
+    margin: auto;
+    overflow: auto;
+    position: absolute;
+}
+.icons_continer_i{
+    float: left;
+    width: 25%;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 5%;
+}
+.icons_continer_i i{
+    font-size: 30;
+    color:  rgb(79, 156, 223);
+}
+.double{
+    width: 100%;
+    height: 150vh;
+    background-image: url("https://i.pinimg.com/originals/4f/02/0d/4f020dcae1e5244f251e3e4f7463de8f.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1500px;
+}
+.pricing{
+    width: 100%;
+    height: 80vh;
+    background-color:rgb(207, 173, 133)
+}
+
+.pricing_h2 {
+    padding-top: 5%;
+    font-size: 40px;
+    text-align: center;
+    color:azure;
+}
+.pricing_line{
+    height: 7px;
+    background-color:rgb(202, 118, 7);
+    margin: auto;
+}
+.pricing-counter{
+    width: 80%;
+    margin: auto;
+}
+.pricing-cotent {
+    width: 300px;
+    height: 280px;
+    border: 3px solid rgb(202, 118, 7);
+    float: left;
+    text-align: center; 
+    margin-top: 50px;
+}
+.pc2{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.pricing-cotent:hover  {
+        background-color:rgb(213, 187, 153);
+    }
+.pricing-cotent:hover .pricing_circle {
+    background-color:beige;
+}
+.pricing-cotent:hover a {
+    color:rgb(67, 67, 201);    
+}
+.pricing_circle {
+    width: 70px;
+    height: 70px;
+    border: 3px solid rgb(202, 118, 7);
+    border-radius: 35px;
+    margin: auto;
+    margin-top: 10;
+}
+.s1{
+    font-size:30px;
+}
+.s2 {
+    font-size: 20px;
+}
+.pricing-cotent a {
+    color:black;
+    border: 3px solid;
+    border-color: rgb(202, 118, 7);
+    text-decoration: none;
+}
+.pricing-p1{
+    font-size:25px;
+    padding-top: 10;
+}
+.pricing-p2 {
+    font-size: 20px;
+    margin-top: 10;
+}
+.circle_img{
+    width: 100%;
+    height: 40vh;
+    position: relative;
+}
+.overlay{
+    width: 100%;
+    height: 40vh;
+    position: absolute;
+    background-color: black;
+    opacity: .6;
+}
+.circle_img_counter{
+    width: 80%;
+    overflow: auto;
+    position: absolute;
+    left: 10%;
+}
+.circle_img_contant{
+    width: 45%;
+    height: 200;
+    float: left; 
+    margin-top: 80;
+    color: aliceblue;
+    font-size: 20;
+}
+.cic2{
+   margin-left:5%;
+}
+.circle1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    float: left;
+}
+.circle2{
+    padding-top: 30;
+    padding-left: 10;
+    float: left;
+}
+.circle-p3{
+    padding-top: 110;
+}
+.team{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://www.healthcomm.cz/kongresy/online/photos/coffe.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1600px;
+}
+.team_h2{
+    color: aliceblue;
+    font-size: 40;
+    padding: 40 0 0 45%;
+} 
+.team_line {
+    width: 80px;
+    height: 7px;
+    background-color:rgb(202, 118, 7);
+    margin: auto;
+    margin-top: 10;
+}
+.n1{
+    width:200px;
+    margin-top: 10;
+}
+.n2{
+    width:150px;
+    margin-top: 10;
+}
+.n3{
+    width:100px;
+    margin-top: 10;
+}
+.team_continer{
+    width: 80%;
+    margin: auto;
+}
+.team-contint{
+    overflow: auto;
+    margin-top: 40;
+}
+.team-item{
+    float: left;
+    width: 28%;
+    background-color:rgb(207, 173, 133);
+    padding: 15px 15px;
+    text-align: center;
+    position: relative;
+}
+.tm2{
+    margin: 0 4%;
+}
+.t-img-icons{
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+.t-img-icons img{
+    width: 100%;
+}
+.team-overlay{
+   position: absolute; 
+   top:0;
+   bottom:0;
+   left: 0;
+   right: 0;
+   background-color:rgb(0, 0,0 ,.4);
+    opacity: 0;
+}
+.team-item:hover .team-overlay{
+    visibility: visible;
+    opacity: 1;
+}
+.team-overlay a{
+   width: 30px;
+   height: 30px;
+   background-color:rgb(29, 97, 156);
+   color:aliceblue ;
+   display: block;
+   font-size: 21;
+   margin-left: auto;
+}
+.team-overlay a i{
+    line-height: 30px;
+}
+.team-item:after{
+    content: "";
+    position: absolute;
+    width: 100%; height: 0;
+    top:0;
+    right: 0;
+    opacity: .2;
+    background-color:black;
+}
+.team-item:hover::after{
+    width: 100%; height: 100%;
+    opacity: .4;
+    transition: 3s;
+}
+.recent{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://www.healthcomm.cz/kongresy/online/photos/coffe.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1800px;
+}
+.recent_line {
+    width: 80px;
+    height: 7px;
+    background-color:rgb(202, 118, 7);
+    margin: auto;
+    margin-top: 10;
+}
+.recent_h2{
+    color: aliceblue;
+    font-size: 40;
+    padding: 0 0 0 42%;
+}
+.recent_cont{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    overflow: auto;
+    margin-top: 3%;
+}
+.recent_cont_in{
+    width: 28%;
+    height: 90%;
+    float: left;
+    color: black;
+    background-color:rgb(207, 173, 133);
+    position: relative;
+}
+.cont2{
+    margin: 0 , 23%;
+}
+.recent_cont_in_l2{
+    padding-top: 10px;
+    padding-left: 30;
+}
+.recent_cont_in_p{
+    padding-top: 7px;
+    padding-left: 30;
+}
+.recent_cont_a{
+    padding-left:30;
+    text-decoration: none;
+    color: black;
+}
+.recent_cont_in img{
+    padding-left: 11px ;
+    padding-top: 11px;
+}
+.recent_cont_in_i{
+    margin-left: 30;
+}
+.recent_cont_in:after{
+    content: "";
+    position: absolute;
+    width: 100%; height: 0;
+    top:0;
+    right: 0;
+    opacity: .2;
+    background-color:black;
+}
+.recent_cont_in:hover::after{
+    width: 100%; height: 100%;
+    opacity: .4;
+    transition: 3s;
+}
+.recent_cont_a :hover{
+    color:rgb(29, 97, 156);
+}
+.last{
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(36, 35, 35);
+    overflow: auto;
+}
+.last_circle{
+    width: 40;
+    height: 40;
+    border-radius: 50%;
+    background-color: rgb(29, 97, 156);
+    color:aliceblue;
+    text-align: center;
+    float: left;
+}
+.last_circle i{
+    line-height: 40px;
+    color: aliceblue;
+}
+.last_circle:hover{
+    background-color: rgb(79, 156, 223);
+}
+.last-continer{
+    width: 80%;
+    height: 30vh;
+    margin: auto;
+    margin-top: 3%;
+}
+.last_icons{
+    width: 240;
+    margin: auto;
+    overflow: auto;
+    padding-top: 15px;
+}
+.last_words{
+    color: azure;
+    text-align: center;
+    margin-top: 15px;
+}
+.last_img{
+    width:180;
+    margin: auto;
+}
